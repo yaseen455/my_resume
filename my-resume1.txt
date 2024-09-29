@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Name - Resume</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            margin: 20px 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Your Job Title</p>
+        <p>Email: your.email@example.com | Phone: (123) 456-7890</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>Job Title - Company Name</strong><br>
+                    <em>Start Date - End Date</em><br>
+                    Description of your role, key responsibilities, and accomplishments.
+                </li>
+                <li>
+                    <strong>Job Title - Company Name</strong><br>
+                    <em>Start Date - End Date</em><br>
+                    Description of your role, key responsibilities, and accomplishments.
+                </li>
+                <!-- Add more experiences as needed -->
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>Project Name</strong><br>
+                    Brief description of the project, technologies used, and your role in the project.
+                </li>
+                <li>
+                    <strong>Project Name</strong><br>
+                    Brief description of the project, technologies used, and your role in the project.
+                </li>
+                <!-- Add more projects as needed -->
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 Your Name
+    </footer>
+
+</body>
+</html>
